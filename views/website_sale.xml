@@ -23,7 +23,7 @@
             <a t-if="suggest_login" role="button"
                class="btn btn-primary pull-right mb32 d-none d-xl-inline-block"
                href="/web/login?redirect=/shop/checkout?express=1">
-                <span>Iniciar sesion y Comprar</span>
+                <span>Ingresar y Comprar</span>
                 <span class="fa fa-long-arrow-right"/>
             </a>
             <t t-if="suggest_create_account">
@@ -44,7 +44,7 @@
             <a t-if="suggest_login" role="button"
                class="btn btn-primary pull-right mb32 d-xl-none"
                href="/web/login?redirect=/shop/checkout?express=1">
-                <span>Iniciar sesion y Comprar</span>
+                <span>Ingresar y Comprar</span>
                 <span class="fa fa-long-arrow-right"/>
             </a>
             <t t-if="suggest_create_account">
@@ -68,7 +68,7 @@
             <a t-if="suggest_login" role="button"
                class="btn btn-secondary float-right d-none d-xl-inline-block"
                href="/web/login?redirect=/shop/checkout?express=1">
-                <span>Iniciar sesion y Comprar</span>
+                <span>Ingresar y Comprar</span>
             </a>
             <t t-if="suggest_create_account">
                 <a class="btn btn-secondary float-right d-none d-xl-inline-block" role="button"
