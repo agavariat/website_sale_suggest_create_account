@@ -23,13 +23,13 @@
             <a t-if="suggest_login" role="button"
                class="btn btn-primary pull-right mb32 d-none d-xl-inline-block"
                href="/web/login?redirect=/shop/checkout?express=1">
-                <span>Ingresar y Comprar</span>
+                <span>Log in and checkout</span>
                 <span class="fa fa-long-arrow-right"/>
             </a>
             <t t-if="suggest_create_account">
                 <a class="btn btn-primary pull-right mb32 d-none d-xl-inline-block" role="button"
                    href="/web/signup?redirect=/shop/checkout?express=1">
-                    <span>Registrarse y Comprar</span>
+                    <span>Sign up and checkout</span>
                     <span class="fa fa-long-arrow-right"/>
                 </a>
             </t>
@@ -44,13 +44,13 @@
             <a t-if="suggest_login" role="button"
                class="btn btn-primary pull-right mb32 d-xl-none"
                href="/web/login?redirect=/shop/checkout?express=1">
-                <span>Ingresar y Comprar</span>
+                <span>Log in and checkout</span>
                 <span class="fa fa-long-arrow-right"/>
             </a>
             <t t-if="suggest_create_account">
                 <a class="btn btn-primary pull-right mb32 d-xl-none" role="button"
                    href="/web/signup?redirect=/shop/checkout?express=1">
-                    <span>Registrarse y Comprar</span>
+                    <span>Sign up and checkout</span>
                     <span class="fa fa-long-arrow-right"/>
                 </a>
             </t>
@@ -68,12 +68,12 @@
             <a t-if="suggest_login" role="button"
                class="btn btn-secondary float-right d-none d-xl-inline-block"
                href="/web/login?redirect=/shop/checkout?express=1">
-                <span>Ingresar y Comprar</span>
+                <span>Log in and checkout</span>
             </a>
             <t t-if="suggest_create_account">
                 <a class="btn btn-secondary float-right d-none d-xl-inline-block" role="button"
                    href="/web/signup?redirect=/shop/checkout?express=1" style="margin-top:3px">
-                    <span>Registrarse y Comprar</span>
+                    <span>Sign up and checkout</span>
                 </a>
             </t>
         </xpath>
